@@ -10,3 +10,6 @@ http{
 5. 启动：/usr/local/nginx/sbin/nginx
 停止：/usr/local/nginx/sbin/nginx -s stop
 重新加载：/usr/local/nginx/sbin/nginx -s reload
+
+本地起server方法：
+进入到项目目录，docsify serve
