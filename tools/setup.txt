@@ -1,0 +1,12 @@
+1. 解压 nginx-1.17.10.tar.gz 到 /usr/local/nginx
+tar zxvf /root/nginx-1.17.10.tar.gz -C ./
+2. 安装依赖 pcre-devel openssl openssl-devel
+3. cd nginx-1.17.10 ./configure make && make install
+4. /usr/local/nginx/conf/nginx.conf
+http{
+	server{
+		location/{
+			root /usr/local/nginx/www/repository;(项目路径)
+5. 启动：/usr/local/nginx/sbin/nginx
+停止：/usr/local/nginx/sbin/nginx -s stop
+重新加载：/usr/local/nginx/sbin/nginx -s reload
