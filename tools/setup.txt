@@ -1,3 +1,11 @@
+windows端：
+保证有npm npm -v 没有的话可以安装 node.js
+npm install -g docsify-cli
+docsify -v
+进入到一个空白目录：docsify init
+本地起server：docsify serve
+
+server端：
 1. 解压 nginx-1.17.10.tar.gz 到 /usr/local/nginx
 tar zxvf /root/nginx-1.17.10.tar.gz -C ./
 2. 安装依赖 pcre-devel openssl openssl-devel
@@ -10,6 +18,3 @@ http{
 5. 启动：/usr/local/nginx/sbin/nginx
 停止：/usr/local/nginx/sbin/nginx -s stop
 重新加载：/usr/local/nginx/sbin/nginx -s reload
-
-本地起server方法：
-进入到项目目录，docsify serve
