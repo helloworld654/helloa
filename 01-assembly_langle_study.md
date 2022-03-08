@@ -1,6 +1,12 @@
 # **Assembly langle study**
 
+[参考视频](https://www.bilibili.com/video/BV1SS4y1g7tB/)
+
+git clone https://e.coding.net/weidongshan/livestream/doc_and_source_for_livestream.git  
+20220306/
+
 生成反汇编：
+
 keil --> 魔术棒 --> User --> After Build/Rebuild --> 打勾 Run #2（填入 fromelf --text -a -c --output=led.dis Objects\led_c.axf)
 
 CPU是如何运行程序的：
