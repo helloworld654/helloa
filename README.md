@@ -2,7 +2,7 @@
 # **C 语言相关**
 ---
 
-[菜鸟教程 C语言](https://www.runoob.com/cprogramming/c-tutorial.html)
+[菜鸟教程](https://www.runoob.com/cprogramming/c-tutorial.html)    [运算符优先级](http://c.biancheng.net/view/161.html)
 
 ---
 # **git 常用命令**
