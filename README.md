@@ -18,14 +18,6 @@
 [廖雪峰 git](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 ---
-# **Linux 常用命令**
----
-
-ps -ef | grep python
-
-tar zxvf /root/nginx-1.17.10.tar.gz -C ./
-
----
 # **常用工具**
 ---
 
@@ -40,3 +32,17 @@ tar zxvf /root/nginx-1.17.10.tar.gz -C ./
 ---
 
 嵌入式大杂烩    [github](https://github.com/zhengnianli/EmbedSummary)    [公众号](https://mp.weixin.qq.com/s/R1bFO8ee2lQEtDEFjr2SNQ)
+
+---
+# **Linux 常用命令**
+---
+
+ps -ef | grep python
+
+tar zxvf /root/nginx-1.17.10.tar.gz -C ./
+
+---
+# **调试方法**
+---
+
+[通过LR寄存器查看函数调用者](./02-func_caller_by_LR_reg.md)
